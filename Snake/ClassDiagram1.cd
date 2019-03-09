@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TochIndustries.SnakeGame.Model.Factory.FoodFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Factory\FoodFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TochIndustries.SnakeGame.Model.Cell.MapCell.AbstractMapCell" Collapsed="true">
+    <Position X="21.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cell\MapCell\AbstractMapCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TochIndustries.SnakeGame.Model.Cell.SnakeSegment.AbstractSnakeSegment" Collapsed="true">
+    <Position X="16" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cell\SnakeSegment\AbstractSnakeSegment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TochIndustries.SnakeGame.Model.Cell.SnakeSegment.BodySegment" Collapsed="true">
+    <Position X="15" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cell\SnakeSegment\BodySegment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TochIndustries.SnakeGame.Model.Cell.SnakeSegment.HeadSegment" Collapsed="true">
+    <Position X="17.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cell\SnakeSegment\HeadSegment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TochIndustries.SnakeGame.Model.Cell.AbstractCell" Collapsed="true">
+    <Position X="18.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAgAgAAAAIAAAAAQAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Cell\AbstractCell.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TochIndustries.SnakeGame.Model.Snake.Builder.SnakeBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAQAgAAABAAAAAAAAAA=</HashCode>
+      <FileName>Snake\Builder\SnakeBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TochIndustries.SnakeGame.Model.Snake.Snake" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Snake\Snake.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="TochIndustries.SnakeGame.Model.Factory.IFoodFactory" Collapsed="true">
+    <Position X="26" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\IFoodFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TochIndustries.SnakeGame.Model.Factory.ISkinFactory" Collapsed="true">
+    <Position X="24.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAADAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Factory\ISkinFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TochIndustries.SnakeGame.Model.Cell.ICell" Collapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cell\ICell.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TochIndustries.SnakeGame.Model.Skin.IBodySkin" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Skin\IBodySkin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TochIndustries.SnakeGame.Model.Skin.IFoodSkin" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Skin\IFoodSkin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TochIndustries.SnakeGame.Model.Skin.IHeadSkin" Collapsed="true">
+    <Position X="19.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Skin\IHeadSkin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TochIndustries.SnakeGame.Model.Skin.IMapCellSkin" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Skin\IMapCellSkin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TochIndustries.SnakeGame.Model.Skin.ISkin" Collapsed="true">
+    <Position X="18.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Skin\ISkin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TochIndustries.SnakeGame.Model.Snake.Builder.ISkinBuilder" Collapsed="true">
+    <Position X="27.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Snake\Builder\ISkinBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TochIndustries.SnakeGame.Model.Snake.ISnake" Collapsed="true">
+    <Position X="26" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Snake\ISnake.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TochIndustries.SnakeGame.Model.Position.IPosition" Collapsed="true">
+    <Position X="24.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Position\IPosition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TochIndustries.SnakeGame.Model.Map.IMap" Collapsed="true">
+    <Position X="27.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Map\IMap.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TochIndustries.SnakeGame.Model.Snake.Direction" Collapsed="true">
+    <Position X="24.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAgAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Snake\ISnake.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
