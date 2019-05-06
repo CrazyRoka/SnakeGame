@@ -9,7 +9,7 @@ namespace Lab6.Cell.Position
         private Random _random;
         private PositionRandomizer() => _random = new Random();
 
-        public PositionRandomizer Instance => _instance = _instance ?? new PositionRandomizer();
+        public static PositionRandomizer Instance => _instance = _instance ?? new PositionRandomizer();
 
         public Position GeneratePosition(int width, int height)
         {

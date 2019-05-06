@@ -15,6 +15,6 @@ namespace Lab6.Cell.Food
 
         public uint Power => _power;
 
-        public Food Instance => _instance.Value;
+        public static Food Instance => _instance.Value;
     }
 }
