@@ -16,6 +16,7 @@ namespace Lab8
         private IGameMode _gameMode;
         private Position _foodPosition;
         private List<Position> _snakeSegments;
+        private GameMemento _memento;
         public Game(IGameMode gameMode)
         {
             SetUpGameMode(gameMode);
@@ -61,8 +62,14 @@ namespace Lab8
 
         public void SetState(GameMemento memento)
         {
-            _snakeSegments = new List<Position>(memento.SnakeSegments);
-            _foodPosition = memento.FoodPosition;
+            _memento = memento;
+            RestoreState();
+        }
+
+        public void RestoreState()
+        {
+            _snakeSegments = new List<Position>(_memento.SnakeSegments);
+            _foodPosition = _memento.FoodPosition;
         }
 
         public GameMemento SaveState()
