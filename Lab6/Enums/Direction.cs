@@ -1,4 +1,4 @@
-﻿namespace Lab6.Enums
+﻿namespace Lab7.Enums
 {
     public enum Direction
     {

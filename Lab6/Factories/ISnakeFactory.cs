@@ -1,11 +1,9 @@
-﻿using Lab6.Cell.SnakeSegment.SnakeBody;
-using Lab6.Cell.SnakeSegment.SnakeHead;
+﻿using Lab7.Cell.SnakeSegment.SnakeBody;
 
-namespace Lab6.Factories
+namespace Lab7.Factories
 {
     public interface ISnakeFactory
     {
-        ISnakeHead GetSnakeHead();
-        ISnakeBody GetSnakeBody();
+        ISnakeBody GetSnakeBody(string imagePath);
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Lab6.Cell.Position
+namespace Lab7.Cell.Positions
 {
     public class PositionRandomizer
     {
@@ -9,7 +9,7 @@ namespace Lab6.Cell.Position
         private Random _random;
         private PositionRandomizer() => _random = new Random();
 
-        public PositionRandomizer Instance => _instance = _instance ?? new PositionRandomizer();
+        public static PositionRandomizer Instance => _instance = _instance ?? new PositionRandomizer();
 
         public Position GeneratePosition(int width, int height)
         {

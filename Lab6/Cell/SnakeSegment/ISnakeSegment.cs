@@ -1,4 +1,4 @@
-﻿namespace Lab6.Cell.SnakeSegment
+﻿namespace Lab7.Cell.SnakeSegment
 {
     public interface ISnakeSegment : ICell
     {

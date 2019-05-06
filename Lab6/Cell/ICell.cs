@@ -1,4 +1,4 @@
-﻿namespace Lab6.Cell
+﻿namespace Lab7.Cell
 {
     public interface ICell
     {
