@@ -22,7 +22,7 @@ namespace TochIndustries.SnakeGame.Model
 
         public void CreateNewGame(ISkinFactory skinFactory)
         {
-            IPosition startPosition = positionRandomizer.RandomizePosition();
+            IPosition startPosition = PositionRandomizer.RandomizePosition();
             SnakeBuilder builder = new SnakeBuilder(skinFactory, startPosition);
 
             this.map = map;

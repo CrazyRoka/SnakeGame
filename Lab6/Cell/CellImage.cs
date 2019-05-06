@@ -1,4 +1,4 @@
-﻿namespace Lab7.Cell
+﻿namespace Lab8.Cell
 {
     public class CellImage : ICellImage
     {

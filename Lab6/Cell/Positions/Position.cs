@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Lab7.Cell.Positions
+namespace Lab8.Cell.Positions
 {
     public struct Position : ICloneable
     {

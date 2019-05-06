@@ -1,4 +1,4 @@
-﻿namespace Lab7.Cell.Food
+﻿namespace Lab8.Cell.Food
 {
     public abstract class FoodSpices : IFood
     {

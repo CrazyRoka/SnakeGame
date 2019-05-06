@@ -1,22 +1,32 @@
-﻿using Lab7.Cell;
-using Lab7.Cell.Positions;
-using Lab7.Cell.SnakeSegment;
+﻿using Lab8.Cell;
+using Lab8.Cell.Food;
+using Lab8.Cell.Positions;
+using Lab8.GameMode;
 using System.Collections.Generic;
 
-namespace Lab7
+namespace Lab8
 {
     public class Game
     {
         private const int Width = 10;
         private const int Height = 10;
 
+        private IFood _food;
         private ICell[,] _map;
+        private IGameMode _gameMode;
         private Position _foodPosition;
         private List<Position> _snakeSegments;
-        public Game()
+        public Game(IGameMode gameMode)
         {
+            SetUpGameMode(gameMode);
             CreateMap();
             Draw();
+        }
+
+        private void SetUpGameMode(IGameMode gameMode)
+        {
+            _gameMode = gameMode;
+            _food = _gameMode.GenerateFood();
         }
 
         private void CreateMap()
@@ -47,6 +57,21 @@ namespace Lab7
         {
             // Turn left
             Draw();
+        }
+
+        public void SetState(GameMemento memento)
+        {
+            _snakeSegments = new List<Position>(memento.SnakeSegments);
+            _foodPosition = memento.FoodPosition;
+        }
+
+        public GameMemento SaveState()
+        {
+            return new GameMemento()
+            {
+                SnakeSegments = new List<Position>(_snakeSegments),
+                FoodPosition = _foodPosition
+            };
         }
     }
 }

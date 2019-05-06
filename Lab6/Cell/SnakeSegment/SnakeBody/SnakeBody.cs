@@ -1,4 +1,4 @@
-﻿namespace Lab7.Cell.SnakeSegment.SnakeBody
+﻿namespace Lab8.Cell.SnakeSegment.SnakeBody
 {
     public class SnakeBody : ISnakeBody
     {

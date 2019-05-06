@@ -1,6 +1,6 @@
-﻿using Lab7.Cell.SnakeSegment.SnakeBody;
+﻿using Lab8.Cell.SnakeSegment.SnakeBody;
 
-namespace Lab7.Factories
+namespace Lab8.Factories
 {
     public interface ISnakeFactory
     {
